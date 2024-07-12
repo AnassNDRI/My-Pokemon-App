@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
 
   setMessage() {
     if(this.auth.isLoggedIn) {
-      this.message = 'Vous etes connectés';
+      this.message = 'Vous êtes connectés';
 
     } else {
       this.message = 'Identifiant ou mot de passe incorrect.';
